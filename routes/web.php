@@ -41,3 +41,5 @@ Route::get('/categoly/{categoly}',function(){
 Route::get('/categoly/{categoly}/edit',function(){
     return view('/categolies/edit');
 });
+
+

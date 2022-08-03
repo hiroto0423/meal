@@ -18,6 +18,7 @@
     　<div class="main">
     　  <div class="meals-list">
     　     <div class="meals-restriction">
+    　      
         　  <select class="select-categoly">
         　　  <option>選択してください</option>
         　  </select>
