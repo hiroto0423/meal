@@ -20,45 +20,47 @@
             <h1>料理登録</h1>
             <div class="meal-name">
               <h2>料理名</h2>
-              <input type="text"placeholder="オムライス">
+              <input type="text"placeholder="オムライス"class="postmeal[name]">
             </div>
             
             <div class="meal-Ingredients_Memo">
               <h2>材料メモ</h2>
-              <input type="text"placeholder="卵二個、牛乳">
+              <input type="text"placeholder="卵二個、牛乳"class="postmeal[Ingredients_Memo]">
             </div>
             
             <div class="meal-way">
               <h2>作り方</h2>
-              <input type="text"placeholder="卵を割って～～～">
+              <input type="text"placeholder="卵を割って～～～"class="postmeal[meal-way]">
             </div>
     
             <div class="meal-cost">
               <h2>コスト</h2>
-              <input type="number"placeholder="500">円
-            </div>  
+              <input type="number"placeholder="500"class="postmeal[meal-way]>円
+            </div>  ]
+      
             <div class="meal-categoly">
               <h2>カテゴリー</h2>
-            　<select class="select-categoly">
-            　 <option>選択してください</option>
+              <select class="select-categoly"class="postmeal[categoly]>
+                <option>選択してください</option>
             　</select>                
             </div>
             
             <div clas="meal-diffyculty">
               <h2>難易度</h2>
-        　　  <select class="select-diffyculty">
+        　　    <select class="select-diffycultclass="postmeal[diffyculty]>
                 <option>選択してください</option>
               </select>                
             </div>
             
-            <div class="meal-satiety">
+            <div class="meal-satiety"class="postmeal[satiety]>
               <h2>満腹度</h2>
               <select class="select-satiety">
                 <option>選択してください</option>
               </select>
             </div>
-            <input type="submit"value="登録する">
+            <input type="button" value="登録する" class="postBtn"id="meal_create">  
         </div>
       </div>
+      <script src="js/meal_card.js"></script>
     </body>
 </html>
