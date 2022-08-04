@@ -10,4 +10,7 @@ class TestController extends Controller
         return response()->json(['apple' => 'red', 'peach' => 'pink']);
     }
     
+    public function mealpost () {
+        return response()->json();
+    }
 }
