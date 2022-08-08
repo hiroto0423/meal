@@ -17,42 +17,50 @@
     　</div>
       <div class="main">
         <div class="meal-register">
-          <form action="/register"method="POST"id="postmeal">
+          <form action="/register"method="POST">
             <h1>料理登録</h1>
             <div class="meal-name">
               <h2>料理名</h2>
-              <input type="text"placeholder="オムライス"class="postmeal[name]">
+              <input type="text"placeholder="オムライス"name="postmeal">
             </div>
+            
             <div class="meal-Ingredients_Memo">
               <h2>材料メモ</h2>
-              <input type="text"placeholder="卵二個、牛乳"class="postmeal[Ingredients_Memo]">
+              <input type="text"placeholder="卵二個、牛乳">
             </div>
+            
             <div class="meal-way">
               <h2>作り方</h2>
-              <input type="text"placeholder="卵を割って～～～"class="postmeal[meal-way]">
+              <input type="text"placeholder="卵を割って～～～">
             </div>
+            
             <div class="meal-cost">
               <h2>コスト</h2>
-              <input type="number"placeholder="500"class="postmeal[meal-way]>円
+              <input type="number"placeholder="500">円
             </div>  
+            
             <div class="meal-categoly">
               <h2>カテゴリー</h2>
-              <select class="select-categoly"class="postmeal[categoly]>
+              <select class="select-categoly">
                 <option>選択してください</option>
             　</select>                
             </div>
+            
             <div clas="meal-diffyculty">
               <h2>難易度</h2>
-        　　    <select class="select-diffycultclass="postmeal[diffyculty]>
-                <option>選択してください</option>
-              </select>                
+              <input type="radio"name="難易度" value=1 checked> レベル1
+              <input type="radio" name="難易度"  value=2> レベル２
+              <input type="radio" name="難易度" value=3> レベル3
             </div>
-            <div class="meal-satiety"class="postmeal[satiety]>
+            
+            <div class="meal-satiety">
               <h2>満腹度</h2>
-              <select class="select-satiety">
-                <option>選択してください</option>
-              </select>
+              <input type="radio"name="満足度" value=1 checked> ちょっと食べたい
+              <input type="radio"  name="満足度"value=2> ちょうどいい
+              <input type="radio"name="満足度" value=3> がっつり
+
             </div>
+            
             <input type="button" value="登録する" class="postBtn"id="meal_create">  
           </form>
         </div>
