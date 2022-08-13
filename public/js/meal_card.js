@@ -12,7 +12,9 @@ const createMeal = () => {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(textform)
+        body: JSON.stringify({
+            "name": textform,
+        })
     }).then((response) => {
         if(!response.ok) {
             console.log('Create error!');

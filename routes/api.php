@@ -24,6 +24,4 @@ Route::get('testget', function(){
    return 1;
 });
 
-Route::post('mealpost' ,function(Request $request) {
-    return response()->json($request);
-});
+Route::post('mealpost' ,'MealController@mealpost');

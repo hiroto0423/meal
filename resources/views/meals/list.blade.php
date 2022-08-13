@@ -16,24 +16,6 @@
     　　</div>
     　</div>
     　<div class="main">
-    　  <div class="meals-list">
-    　     <div class="meals-restriction">
-    　      
-        　  <select class="select-categoly">
-        　　  <option>選択してください</option>
-        　  </select>
-            <div class="select-diffyculty">
-        　　  <p>難易度</p>
-        　　  <select class="select-diffyculty">
-                <option>選択してください</option>
-              </select>
-            </div>
-            <div class="select-satiety">
-              <p>満腹度</p>
-              <select class="select-satiety">
-                <option>選択してください</option>
-              </select>
-            </div>　         
     　   <h1>レシピ一覧</h1>
     　  </div>
       </div>

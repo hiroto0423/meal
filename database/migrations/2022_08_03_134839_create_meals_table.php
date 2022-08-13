@@ -18,10 +18,10 @@ class CreateMealsTable extends Migration
             $table->string('name',50);
             $table->string('Ingredients_Memo',200)->nullable();
             $table->string('way',500)->nullable();
-            $table->integer('cost');
+            $table->integer('cost')->nullable();
             $table->integer('categoly_id')->unsigned();
-            $table->string('difficulty');
-            $table->string('satiety');
+            $table->string('difficulty')->nullable();
+            $table->string('satiety')->nullable();
             $table->timestamps();
         });
     }
